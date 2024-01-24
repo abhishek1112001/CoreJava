@@ -35,6 +35,7 @@ public class FindLargestArray {
 			System.out.print(arr[i]+" ");
 		}
 		s.close();*/
+		s.close();
 	}
 
 }
