@@ -12,4 +12,4 @@ public class HomeworkAssinementOne {
 		s.close();
 	}
 
-}
+} 
