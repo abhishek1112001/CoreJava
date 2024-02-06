@@ -10,4 +10,5 @@ public class Google {
 		this.emailId=emailId;
 		System.out.println(appName+" "+emailId);
 	}
+	
 }
