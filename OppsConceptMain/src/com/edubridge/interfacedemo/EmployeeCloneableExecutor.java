@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class EmployeeCloneableExecutor {
 
 	public static void main(String[] args) throws CloneNotSupportedException {
-		// TODO Auto-generated method stub
 		
 		Scanner s = new Scanner(System.in);
 		
