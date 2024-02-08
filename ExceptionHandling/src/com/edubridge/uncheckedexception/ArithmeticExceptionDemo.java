@@ -24,7 +24,7 @@ public class ArithmeticExceptionDemo {
 		{
 			
 			System.out.println("Exception occour is : "+e);
-			System.exit(0);
+			//System.exit(0);
 			/*when we throw an exception inside a finally block 
 			 * after printing the statements*/
 		}
