@@ -28,6 +28,7 @@ public class Sites {
 		Sites other = (Sites) obj;
 		return Objects.equals(id, other.id) && Objects.equals(name, other.name);
 	}
+	
 	public Sites(String name, Integer id) {
 		super();
 		this.name = name;
