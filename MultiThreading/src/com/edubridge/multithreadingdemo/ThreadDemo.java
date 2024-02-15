@@ -9,12 +9,18 @@ public class ThreadDemo extends Thread {
 	
 	public static void main(String[] args) {
 		
-		ThreadDemo t1 = new ThreadDemo();
-		ThreadDemo t2 = new ThreadDemo();
-		/*when we call the start() method , automatically
-		 * it call to run method*/
-		t1.start();
-		t2.start();
+		for(int i=1;i<4;i++) 
+		{
+			ThreadDemo t1 = new ThreadDemo();
+			ThreadDemo t2 = new ThreadDemo();
+			/*when we call the start() method , automatically
+			 * it call to run method*/
+			t1.start();
+			t2.start();
+			//System.out.println(t1.getName()+" "+t2.getName());
+		}
+		//System.out.println();
+		
 	}
 
 }
