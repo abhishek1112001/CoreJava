@@ -13,6 +13,13 @@ public class ThreadDemo extends Thread {
 		{
 			ThreadDemo t1 = new ThreadDemo();
 			ThreadDemo t2 = new ThreadDemo();
+			
+			//to give the name for the thread
+			t1.setName("Abhi");
+			
+			//to set the priority to the thread
+			t1.setPriority(7);
+			
 			/*when we call the start() method , automatically
 			 * it call to run method*/
 			t1.start();

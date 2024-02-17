@@ -14,6 +14,7 @@ public class ThreadExecutor implements Runnable {
 		
 		ThreadExecutor t1 = new ThreadExecutor();
 		t1.run();
+		//t1.run();
 
 	}
 
